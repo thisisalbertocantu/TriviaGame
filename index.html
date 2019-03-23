@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="align-self-center" style="margin-top:40px;">
+                    <h1>Trivia Game</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="align-self-center" id="question">
+                    <h3>This is the placeholder for the question</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="align-self-center" id="time-remaining">
+                    <h5>Time remaining: </h5>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="align-self-center" id="opt1" value="1" style="margin-top:20px;"><span
+                        id="opt1">TRUE</span></div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="align-self-center" id="opt1" value="2" style="margin-top:20px;"><span
+                        id="opt2">FALSE</span></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="align-self-center">
+                <button type="button" class="btn btn-primary" id="nextButton" style="margin-left:10%" onclick="loadNextQuestion();">Primary</button>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="assets/javascript/app.js"> </script>
+</body>
