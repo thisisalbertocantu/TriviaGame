@@ -94,7 +94,7 @@ $(document).ready(function(){
 
 	
 	/*	========================================================
-		Step : 1 ==> Starts the game.
+		Start the Game
 		========================================================	*/
 
 	$(".container").on("click", ".btn-start", function(){
@@ -103,7 +103,7 @@ $(document).ready(function(){
 	});
 
 	/*	=============================================================
-		Step : 2 ==> User selects answer (click on choices(answers)).
+		User selects the answer to play
 		=============================================================	*/
 
 	$(".container").on("click", ".btn-answer", function(){
@@ -119,7 +119,7 @@ $(document).ready(function(){
 	});
 
 	/*	========================================================
-		Step : 3 ==> After result, it resets the game.
+		Once the result is shown, it will reset the question
 		========================================================	*/
 	$(".container").on("click", ".btn-reset", function(){
 		game.reset();
@@ -222,7 +222,7 @@ $(document).ready(function(){
 		},
 
 		/*	========================================================
-				Generate/Display gif image based on answer
+				Generate/Display GIF image based on answer
 			========================================================	*/
 
 		gifGenerator : function(paramSrc, paramAlt){
@@ -286,7 +286,7 @@ $(document).ready(function(){
 
 
 		/*	========================================================
-				Go Back To Default State.
+				Reset the Game
 			========================================================	*/
 		reset : function(){
 			// console.log("reset");
